@@ -1,20 +1,95 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🎙️ Mujeeb – AI Voice Banking Assistant
 
-# Run and deploy your AI Studio app
+**Mujeeb** is an AI-powered voice assistant designed to help **visually impaired users in Saudi Arabia** perform financial tasks through simple voice interaction.
 
-This contains everything you need to run your app locally.
+The system uses **speech recognition, large language models, and text-to-speech technologies** to understand spoken commands and respond naturally, simulating a professional Saudi banking customer service experience.
 
-View your app in AI Studio: https://ai.studio/apps/f9c5ea8a-adb6-4ebe-94fd-9d1265d71abe
+Users can perform banking-related actions such as checking balances, transferring money, and receiving confirmations completely through voice interaction.
 
-## Run Locally
+---
 
-**Prerequisites:**  Node.js
+## 🎯 Project Goal
+
+To make **digital financial services more accessible** for visually impaired users by enabling them to interact with banking systems using natural speech instead of visual interfaces.
+
+---
+
+## ✨ Key Features
+
+- Voice-based interaction (no visual interface required)
+- AI language understanding using LLMs
+- Natural text-to-speech responses
+- Simulated banking environment
+- Accessibility-focused design for visually impaired users
+- Arabic conversational support
+
+---
+
+## 🧩 System Architecture
+
+The assistant follows a simple AI pipeline:
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+```
+User Voice
+↓
+Speech-to-Text (STT)
+↓
+AI Language Model (LLM)
+↓
+Intent Understanding
+↓
+Response Generation
+↓
+Text-to-Speech (TTS)
+↓
+Voice Response
+```
+
+---
+
+## 🧰 Technologies Used
+
+- Python
+- LLM APIs (e.g., OpenAI)
+- Speech-to-Text (STT)
+- Text-to-Speech (TTS)
+- Prompt Engineering
+- Voice Interaction Design
+
+---
+
+## 💡 Example Voice Commands
+
+Users can interact with Mujeeb using natural Arabic speech:
+
+- "كم رصيدي؟"
+- "حوّل 500 ريال إلى أحمد"
+- "أرسل لي كشف الحساب"
+- "ما آخر العمليات في الحساب؟"
+
+The assistant confirms actions clearly to ensure accuracy.
+
+---
+
+## 👥 Target Users
+
+- Visually impaired users
+- Individuals who prefer voice-based interaction
+- Users seeking accessible financial services
+
+---
+
+## 🔐 Security Note
+
+This project uses a **simulated banking environment** for demonstration purposes.  
+No real financial data or transactions are used.
+
+---
+
+## 🚀 Future Improvements
+
+- Integration with real banking APIs
+- Voice biometrics for secure user authentication
+- Integration with the Saudi **Humain AI model** for better support of local Arabic dialects
+
